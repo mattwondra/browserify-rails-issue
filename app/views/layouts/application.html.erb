@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>browserify-rails issue reduced test case</title>
+  <%= javascript_include_tag 'sprockets_require_concat_error' %>
+  <%= javascript_include_tag 'sprockets_require' %>
+  <%= javascript_include_tag 'browserify_require' %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>

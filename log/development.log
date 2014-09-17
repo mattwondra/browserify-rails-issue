@@ -1,0 +1,1362 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:05:23 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Library/Ruby/Gems/2.0.0/gems/railties-4.1.6/lib/rails/templates/rails/welcome/index.html.erb (2.7ms)
+Completed 200 OK in 43ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:05:24 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Library/Ruby/Gems/2.0.0/gems/railties-4.1.6/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:06:58 -0500
+
+AbstractController::ActionNotFound (The action 'index' could not be found for WelcomeController):
+  actionpack (4.1.6) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.6) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:07:17 -0500
+
+AbstractController::ActionNotFound (The action 'index' could not be found for WelcomeController):
+  actionpack (4.1.6) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.6) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:07:19 -0500
+
+AbstractController::ActionNotFound (The action 'index' could not be found for WelcomeController):
+  actionpack (4.1.6) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.6) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:07:20 -0500
+
+AbstractController::ActionNotFound (The action 'index' could not be found for WelcomeController):
+  actionpack (4.1.6) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.6) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:07:34 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.5ms)
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify -d --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify -d -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify -d --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify -d -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify -d --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify -d -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify -d --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify -d -
+Completed 500 Internal Server Error in 5207ms
+
+ActionView::Template::Error (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( sprockets_require.js )` to `config/initializers/assets.rb` and restart your server):
+    2: <html>
+    3: <head>
+    4:   <title>browserify-rails issue reduced test case</title>
+    5:   <%= javascript_include_tag 'sprockets_require' %>
+    6:   <%= javascript_include_tag 'browserify_require' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___335706335342777570_70250268000780'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (53.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (73.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:08:35 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( sprockets_require.js )` to `config/initializers/assets.rb` and restart your server):
+    2: <html>
+    3: <head>
+    4:   <title>browserify-rails issue reduced test case</title>
+    5:   <%= javascript_include_tag 'sprockets_require' %>
+    6:   <%= javascript_include_tag 'browserify_require' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___335706335342777570_70250268000780'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:08:40 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( sprockets_require.js )` to `config/initializers/assets.rb` and restart your server):
+    2: <html>
+    3: <head>
+    4:   <title>browserify-rails issue reduced test case</title>
+    5:   <%= javascript_include_tag 'sprockets_require' %>
+    6:   <%= javascript_include_tag 'browserify_require' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___335706335342777570_70250268000780'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:08:48 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (1.3ms)
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify -d --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify -d -
+Completed 200 OK in 1380ms (Views: 1343.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js?body=1" for 127.0.0.1 at 2014-09-17 17:08:49 -0500
+
+
+Started GET "/assets/modules/c.js?body=1" for 127.0.0.1 at 2014-09-17 17:08:49 -0500
+
+
+Started GET "/assets/sprockets_require.js?body=1" for 127.0.0.1 at 2014-09-17 17:08:49 -0500
+
+
+Started GET "/assets/modules/b.js?body=1" for 127.0.0.1 at 2014-09-17 17:08:49 -0500
+
+
+Started GET "/assets/modules/a.js?body=1" for 127.0.0.1 at 2014-09-17 17:08:49 -0500
+
+
+Started GET "/assets/sprockets_require.js?body=1" for 127.0.0.1 at 2014-09-17 17:09:01 -0500
+
+
+Started GET "/assets/browserify_require.js?body=1" for 127.0.0.1 at 2014-09-17 17:09:01 -0500
+
+
+Started GET "/assets/modules/a.js?body=1" for 127.0.0.1 at 2014-09-17 17:09:22 -0500
+
+
+Started GET "/assets/modules/b.js?body=1" for 127.0.0.1 at 2014-09-17 17:09:22 -0500
+
+
+Started GET "/assets/modules/c.js?body=1" for 127.0.0.1 at 2014-09-17 17:09:23 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:09:55 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (1.5ms)
+Completed 200 OK in 60ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:09:57 -0500
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:09:57 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:10:08 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:10:09 -0500
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:10:09 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:10:12 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:10:12 -0500
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:10:12 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:12:02 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify -d --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify -d -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify -d --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify -d -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify -d --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify -d -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify -d --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify -d --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify -d -
+Completed 200 OK in 5650ms (Views: 5649.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:12:08 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:12:08 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:12:42 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:13:53 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:13:54 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (1.0ms)
+Completed 200 OK in 43ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:13:56 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:13:59 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:13:59 -0500
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:13:59 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:14:00 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:14:00 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:14:00 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:14:30 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (1.3ms)
+Completed 200 OK in 105ms (Views: 65.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:14:31 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:14:31 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:14:59 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (1.4ms)
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Completed 200 OK in 3490ms (Views: 3457.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:15:03 -0500
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:15:03 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:15:07 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:15:08 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:15:43 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (1.5ms)
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Completed 200 OK in 3215ms (Views: 3173.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:15:47 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:15:47 -0500
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:15:47 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:15:49 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:15:49 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:15:49 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:15:51 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:17:57 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (1.5ms)
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Completed 200 OK in 3151ms (Views: 3104.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:18:00 -0500
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:18:00 -0500
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:18:08 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:19:32 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:19:34 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:19:35 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:19:37 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:19:40 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:19:40 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:19:40 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:20:12 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:20:13 -0500
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:20:13 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:20:40 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Completed 200 OK in 588ms (Views: 587.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:20:41 -0500
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:20:41 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:20:42 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:20:42 -0500
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:20:42 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:20:47 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:21:15 -0500
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:21:36 -0500
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:21:47 -0500
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:21:52 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Completed 200 OK in 917ms (Views: 916.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:21:53 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:21:53 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:21:55 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:21:55 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:21:55 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:21:58 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:22:00 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:22:02 -0500
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:22:03 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:22:04 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:22:04 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:22:04 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:22:04 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:22:05 -0500
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:22:05 -0500
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 17:22:08 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:22:08 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:22:08 -0500
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:22:39 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:22:39 -0500
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:26:42 -0500
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:26:44 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Completed 200 OK in 4256ms (Views: 4254.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 17:26:53 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:26:53 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:26:53 -0500
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 17:26:54 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:26:54 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:26:54 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:26:58 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:27:01 -0500
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 17:30:38 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Completed 200 OK in 5555ms (Views: 5554.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:30:43 -0500
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:30:43 -0500
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 17:31:13 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Completed 200 OK in 4275ms (Views: 4273.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:31:17 -0500
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:31:17 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:31:39 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:31:40 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:33:25 -0500
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:33:29 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:33:29 -0500
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 17:33:32 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:33:32 -0500
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:33:32 -0500
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 17:33:33 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:33:33 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:33:33 -0500
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 17:33:33 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:33:33 -0500
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:33:33 -0500
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 17:33:34 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:33:34 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:33:34 -0500
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 17:33:38 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Completed 200 OK in 625ms (Views: 623.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:33:38 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:33:38 -0500
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 17:33:43 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Completed 200 OK in 626ms (Views: 624.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:33:43 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:33:43 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:34:22 -0500
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:34:26 -0500
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:34:27 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 17:34:27 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:34:27 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:34:27 -0500
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 17:35:48 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:35:48 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:35:48 -0500
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 17:39:18 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Completed 200 OK in 1152ms (Views: 1151.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:39:19 -0500
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:39:19 -0500
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:39:21 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:39:22 -0500
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 17:53:39 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (1.7ms)
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Completed 200 OK in 1042ms (Views: 1012.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:53:40 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:53:40 -0500
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 17:53:48 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:53:48 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:53:48 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-17 17:53:50 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:53:51 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:53:52 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:55:02 -0500
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 17:55:05 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.3ms)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:55:05 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:55:05 -0500
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 17:55:45 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Completed 200 OK in 1196ms (Views: 1195.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:55:46 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:55:46 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:58:16 -0500
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 17:59:38 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Completed 200 OK in 705ms (Views: 703.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:59:38 -0500
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:59:38 -0500
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 17:59:46 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 17:59:46 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 18:00:09 -0500
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 18:00:15 -0500
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 18:00:16 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 18:00:16 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 18:00:16 -0500
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 18:00:19 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 18:00:19 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 18:00:19 -0500
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 18:00:20 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 18:00:20 -0500
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 18:00:20 -0500
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 18:00:28 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.2ms)
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Completed 200 OK in 593ms (Views: 592.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 18:00:29 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 18:00:29 -0500
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 18:00:31 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 18:00:31 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 18:00:31 -0500
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 18:00:41 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (couldn't find file 'block1'
+  (in /Users/mattwondra/projects/browserify-rails-issue/app/assets/javascripts/sprockets_require.js:2)):
+    2: <html>
+    3: <head>
+    4:   <title>browserify-rails issue reduced test case</title>
+    5:   <%= javascript_include_tag 'sprockets_require' %>
+    6:   <%= javascript_include_tag 'browserify_require' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2354885005340479899_70342527256020'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.5ms)
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 18:00:45 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (couldn't find file 'block1'
+  (in /Users/mattwondra/projects/browserify-rails-issue/app/assets/javascripts/sprockets_require.js:2)):
+    2: <html>
+    3: <head>
+    4:   <title>browserify-rails issue reduced test case</title>
+    5:   <%= javascript_include_tag 'sprockets_require' %>
+    6:   <%= javascript_include_tag 'browserify_require' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2354885005340479899_70342527256020'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (59.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (71.8ms)
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 18:04:29 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (couldn't find file 'block1'
+  (in /Users/mattwondra/projects/browserify-rails-issue/app/assets/javascripts/sprockets_require.js:2)):
+    2: <html>
+    3: <head>
+    4:   <title>browserify-rails issue reduced test case</title>
+    5:   <%= javascript_include_tag 'sprockets_require' %>
+    6:   <%= javascript_include_tag 'browserify_require' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2354885005340479899_70342527256020'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.4ms)
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 18:05:55 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (couldn't find file 'noop1'
+  (in /Users/mattwondra/projects/browserify-rails-issue/app/assets/javascripts/sprockets_require.js:2)):
+    2: <html>
+    3: <head>
+    4:   <title>browserify-rails issue reduced test case</title>
+    5:   <%= javascript_include_tag 'sprockets_require' %>
+    6:   <%= javascript_include_tag 'browserify_require' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2354885005340479899_70342527256020'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.7ms)
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 18:05:57 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (couldn't find file 'noop1'
+  (in /Users/mattwondra/projects/browserify-rails-issue/app/assets/javascripts/sprockets_require.js:2)):
+    2: <html>
+    3: <head>
+    4:   <title>browserify-rails issue reduced test case</title>
+    5:   <%= javascript_include_tag 'sprockets_require' %>
+    6:   <%= javascript_include_tag 'browserify_require' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2354885005340479899_70342527256020'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.7ms)
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 18:06:03 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Completed 200 OK in 1495ms (Views: 1493.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 18:06:05 -0500
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 18:06:05 -0500
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 18:06:20 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Completed 200 OK in 411ms (Views: 410.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 18:06:20 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 18:06:20 -0500
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 18:06:27 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Completed 200 OK in 533ms (Views: 531.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 18:06:28 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 18:06:28 -0500
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 18:09:46 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  -
+Completed 200 OK in 1227ms (Views: 1225.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 18:09:47 -0500
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 18:09:47 -0500
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 18:13:32 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (1.4ms)
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Browserify: /Users/mattwondra/projects/browserify-rails-issue/./node_modules/.bin/browserify  --list -
+Completed 200 OK in 1256ms (Views: 1220.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sprockets_require_concat_error.js" for 127.0.0.1 at 2014-09-17 18:13:34 -0500
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 18:13:34 -0500
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 18:13:34 -0500
+
+
+Started GET "/?Asd" for 127.0.0.1 at 2014-09-17 18:13:58 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"Asd"=>nil}
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sprockets_require.js" for 127.0.0.1 at 2014-09-17 18:13:58 -0500
+
+
+Started GET "/assets/sprockets_require_concat_error.js" for 127.0.0.1 at 2014-09-17 18:13:58 -0500
+
+
+Started GET "/assets/browserify_require.js" for 127.0.0.1 at 2014-09-17 18:13:58 -0500
