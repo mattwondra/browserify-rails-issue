@@ -19,6 +19,8 @@ This is highlighted in [sprockets_require_concat_error.js](https://github.com/ma
 //= require "modules/c"
 ```
 
+*[compiled script](https://github.com/mattwondra/browserify-rails-issue/blob/master/public/assets_compiled/sprockets_require_concat_error.js)*
+
 When the three modules are consecutively required using Sprockets like this, the processed script throws the following runtime error:
 
 
@@ -52,6 +54,8 @@ The next example is highlighted in [sprockets_require.js](https://github.com/mat
 //= require "modules/c"
 ```
 
+*[compiled script](https://github.com/mattwondra/browserify-rails-issue/blob/master/public/assets_compiled/sprockets_require.js)*
+
 Note that I've inserted `noop` scripts between the modules as a quick fix for Issue 1 above. However this suffers its own issues. If you look at the processed script, you notice that the shared `lib/counter` library is declared three times: once for each module. So it seems that because Sprockets processes each `//= require`-d file separately, there's no way for them to share common modules.
 
 I know there are [documented ways around this](https://github.com/browserify-rails/browserify-rails#multiple-bundles) but it seems a huge burden to update a YAML config so heavily on a large project with many files and multiple shared dependencies. And while for many modules the worst case is your final file declares the same file many times (probably made negligent with gzip) — for others there are catastrophic results with initializing one library several times on the same page (React in particular).
@@ -66,5 +70,7 @@ var module_a = require("./modules/a");
 var module_b = require("./modules/b");
 var module_c = require("./modules/c");
 ```
+
+*[compiled script](https://github.com/mattwondra/browserify-rails-issue/blob/master/public/assets_compiled/browserify_require.js)*
 
 By including the modules through Browserify, rather than sprockets, you get the desired result. Namely, the shared module `lib/counter` is instantiated exactly once and shared between the other modules.
